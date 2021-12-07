@@ -23,7 +23,7 @@ class _AutorizationPageState extends State<AutorizationPage> {
           child: Container(
               child: Align(
                   child: Text(
-            'MAXFIT',
+            'MAXFITT',
             style: TextStyle(
                 fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white),
           ))));
