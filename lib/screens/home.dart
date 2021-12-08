@@ -117,7 +117,7 @@ Widget subtitle(BuildContext context, Workout workout) {
     SizedBox(width: 10),
     Expanded(
       flex: 3,
-      child: Text(workout?.level ?? '',
+      child: Text(workout.level ?? '',
           style:
               TextStyle(color: Theme.of(context).textTheme.headline6?.color)),
     ),
